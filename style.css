@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-/* ****************** Variables  ******************** */
+
+/* ****************** VARIABLES  ******************** */
 
 :root {
-  /* text Colors */
+  /* text colors */
   --text-gray: #808291;
   --text-white: #f8f9fa;
   --text-light: #f6f6f6;
@@ -15,16 +16,15 @@
   --bg-yellow: rgb(255, 255, 246);
   --bg-purple: rgb(246, 255, 255);
 
-  /* Font Family */
-  --font-family: "Poppins", sans-serif;
+  /* font familiy */
   --font-poppins: "Poppins", "sans-serif";
 
-  /* Gradients colors */
+  /* gradient colors */
   --bg-gradient: linear-gradient(to right, #ff512f, #dd2476);
   --bg-gradient-indigo: linear-gradient(to right, #8e2de2, #4a00e0);
   --bg-gradient-peach: linear-gradient(to right, #fff7f3, #fff7f3);
 
-  /* Images */
+  /* images */
   --bg-cover: url("./assets/bgimg1.png");
   --bg-image1: url("./assets/img1.png");
   --bg-image2: url("./assets/img2.png");
@@ -45,13 +45,18 @@ ul {
   list-style-type: none;
 }
 
-/* ****************** Global Classes   ******************** */
+/* ------------------- GLOBAL CLASSES ------------------------ */
+
 .text-dark {
   color: var(--text-dark);
 }
 
 .text-white {
   color: var(--text-white);
+}
+
+.text-light {
+  color: var(--text-light);
 }
 
 .text-gray {
@@ -109,7 +114,7 @@ ul {
 
 .text-lg {
   font-size: 2.2em;
-  line-height: 3em;
+  line-height: 3rem;
 }
 
 .text-xl {
@@ -203,8 +208,6 @@ ul {
   color: var(--text-red);
 }
 
-/* btn */
-
 .btn {
   border: none;
   background-color: transparent;
@@ -218,8 +221,7 @@ ul {
   font-weight: bold;
 }
 
-.btn-shadow {
-  /*shodow*/
+.btn-shodow {
   box-shadow: var(--box-shadow);
 }
 
@@ -232,7 +234,7 @@ ul {
   object-fit: fill;
 }
 
-.d-inline {
+.d-iniine {
   display: inline-block;
 }
 
@@ -256,20 +258,64 @@ ul {
   width: 50%;
 }
 
-/* ****************** Variables  ******************** */
+/* ------------------- NAVIGATION ------------------------ */
+#nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: var(--text-light);
+  flex-direction: column;
+}
 
-/* ****************** Variables  ******************** */
+#nav .collapse {
+  max-height: 0px;
+  overflow-y: hidden;
+  transition: all 0.9s ease;
+}
 
-/* ****************** Variables  ******************** */
+#nav .collapse ul {
+  flex-direction: column;
+  text-align: center;
+  padding: 0 3rem;
+}
 
-/* ****************** Variables  ******************** */
+#nav .collapse ul > li {
+  padding: 0 1.5rem;
+  line-height: 3rem;
+  font-size: 1.1em;
+}
 
-/* ****************** Variables  ******************** */
+#nav .toggle-btn > button {
+  font-size: 2em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  color: var(--text-dark2);
+}
 
-/* ****************** Variables  ******************** */
+#nav .flex-initial ul button {
+  display: none;
+}
 
-/* ****************** Variables  ******************** */
+.active {
+  max-height: 50vh !important;
+}
 
-/* ****************** Variables  ******************** */
+/* ******************   ******************** */
 
-/* ****************** Variables  ******************** */
+/* ******************   ******************** */
+
+/* ******************   ******************** */
+
+/* ******************   ******************** */
+
+/* ******************   ******************** */
+
+/* ******************   ******************** */
+
+/* ******************   ******************** */
+
+/* ******************   ******************** */

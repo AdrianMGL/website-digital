@@ -9,6 +9,9 @@
 
     <link rel="shortcut icon" href="./assets/favicon/favi1.png" type="image/x-icon">
 
+    <!-- bootstrap-icons@1.7.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,7 +20,41 @@
 
     <!--  Header Section  -->
     <header class="container-fluid">
-        <h1>Navigation</h1>
+        <nav id="nav" class="flex font-poppins">
+            <div class="nav-brand">
+                <a href="#" class="text-dark text-lg font-bold">Digital</a>
+            </div>
+            <div class="toggle-btn">
+                <button class="btn">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+            </div>
+            <div class="collapse flex-grow">
+                <ul class="flex">
+                    <li>
+                        <a href="#" class="link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-initial">
+                <ul class="flex">
+                    <button class="btn btn-primary btn-shadow bg-gradient text-white text-uppercase">start a
+                        project</button>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <!--  -->
