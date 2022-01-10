@@ -481,7 +481,16 @@ ul {
   row-gap: 2em;
 }
 
-/* ******************   ******************** */
+/* ****************** RECENT WORK  ******************** */
+
+#site-main .recent-work-area .images-flex .flex-item {
+  width: 360px;
+  margin-bottom: 50px;
+}
+
+#site-main .recent-work-area .images-flex .flex-item img {
+  border-radius: 10px;
+}
 
 /* ******************   ******************** */
 
