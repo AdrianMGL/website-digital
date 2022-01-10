@@ -19,3 +19,8 @@ window.onload = function digital_fn() {
     })
 
 }
+// RELLAX 
+
+var rellax = new Rellax('.rellax', {
+    center   : true
+});
