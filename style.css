@@ -220,7 +220,7 @@ ul {
   font-weight: bold;
 }
 
-.btn-shodow {
+.btn-shadow {
   box-shadow: var(--box-shadow);
 }
 
@@ -492,7 +492,15 @@ ul {
   border-radius: 10px;
 }
 
-/* ******************   ******************** */
+/* ****************** ARTICLE AREA ******************** */
+
+#site-main .article-area .grid {
+  column-gap: 1.5rem;
+}
+
+#site-main .article-area .card article .w-100 {
+  border-radius: 5px;
+}
 
 /* ******************   ******************** */
 
