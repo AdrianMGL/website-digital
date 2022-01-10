@@ -28,7 +28,7 @@
     <header class="container-fluid">
         <nav id="nav" class="flex font-poppins">
             <div class="nav-brand">
-                <a href="#" class="text-dark text-lg font-bold">Digital</a>
+                <a href="#banner" class="text-dark text-lg font-bold">Digital</a>
             </div>
             <div class="toggle-btn">
                 <button class="btn">
@@ -38,19 +38,22 @@
             <div class="collapse flex-grow">
                 <ul class="flex">
                     <li>
-                        <a href="#" class="link">Home</a>
+                        <a href="#banner" class="link">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="link">About</a>
+                        <a href="#service" class="link">Services</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Services</a>
+                        <a href="#about" class="link">About</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Work</a>
+                        <a href="#work" class="link">Work</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Contact</a>
+                        <a href="#article" class="link">Article</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -66,7 +69,7 @@
     <!-- MAIN -->
     <main id="site-main">
 
-        <!-- particle -->
+        <!-- particle ball -->
         <div id="particle-container">
             <div class="particle"></div>
             <div class="particle"></div>
@@ -100,11 +103,8 @@
             <div class="particle"></div>
         </div>
 
-        <!--  -->
-
-
         <!-- Banner -->
-        <section class="banner-area font-poppins">
+        <section class="banner-area font-poppins" id="banner">
             <div class="container mx-auto banner-title">
                 <div class="title ">
                     <span
@@ -129,7 +129,7 @@
         </section>
 
         <!-- Agency -->
-        <section class="agency-area">
+        <section class="agency-area" id="service">
             <div class="container mx-auto text-center font-poppins">
                 <span class="text-red">Join our Agency</span>
                 <div class="area-title">
@@ -174,7 +174,7 @@
         </section>
 
         <!-- Digital life -->
-        <section class="container mx-auto life-area">
+        <section class="container mx-auto life-area" id="about">
             <div class="grid cols-1 lg-cols-2 text-center md-text-left">
                 <div class="grid-images">
                     <div data-rellax-speed="6" class="item-one rellax"></div>
@@ -327,7 +327,7 @@
         </section>
 
         <!-- RECENT WORK -->
-        <section class="container mx-auto py-10 recent-work-area">
+        <section class="container mx-auto py-10 recent-work-area" id="work">
             <div class="title">
                 <span class="d-inline btn btn-primary bg-gradient-peach text-red">digital experiance</span>
                 <div class="font-poppins">
@@ -386,9 +386,8 @@
             </div>
         </section>
 
-
         <!-- ARTICLE AREA -->
-        <section class="article-area container mx-auto py-10">
+        <section class="article-area container mx-auto py-10" id="article">
             <div class="area-title text-center font-poppins">
                 <span class="text-red">Our Recent Articles</span>
                 <h1 class="text-lg text-dark">Articles daily updated</h1>
@@ -432,7 +431,7 @@
         </section>
 
         <!-- READY  -->
-        <section class="ready-area container mx-auto py-5 animate__animated animate__zoomIn">
+        <section class="ready-area container mx-auto py-5 animate__animated animate__zoomIn" id="contact">
             <div class="flex flex-wrap font-poppins btn-shadow py-10 sm-px-10">
                 <div class="w-50">
                     <h1 class="text-lg sm-text-xl text-dark">Ready to get started?</h1>
@@ -452,19 +451,19 @@
         <!-- FOOTER -->
         <footer id="footer">
             <section class="container mx-auto py-10">
-                <div class="grid md-cols-2 lg-cols-4 font-poppins">
-                    <div class="text-gray text-center md-text-left">
+                <div class="grid md-cols-2 lg-cols-4 font-poppins pb-1">
+                    <div class="text-gray text-center md-text-left pt-1">
                         <span>
-                            xxx Island Lane Jani
+                            xxx Island Lane
                             Morelia, Mich 44503
                         </span>
-                        <span class="d-block">(000)000-0000</span>
-                        <span class="text-red">adrienguzman@gmail.com</span>
+                        <span class="d-block pb-1">(000)000-0000</span>
+                        <span class="text-red ">adrienguzman@gmail.com</span>
                     </div>
                     <div class="text-gray text-center md-text-left">
                         <h3 class="text-dark">About</h3>
                         <div class="py-5">
-                            <a href="#" class="d-block">
+                            <a href="#about" class="d-block">
                                 <span class="text-gray">About us</span>
                             </a>
                             <a href="#" class="d-block">
@@ -503,13 +502,13 @@
                     </div>
                     <div class="text-gray text-center md-text-left">
                         <h3 class="text-dark">Newsleter</h3>
-                        <p>
+                        <p class="py-5">
                             Subcribe our Newsletter to get the <br>
                             latest news & updates.
                         </p>
                         <div class="flex py-5">
-                            <input type="text" class="subscribe-text" placeholder="Enter Email Address">
-                            <button class="btn btn-go">Go</button>
+                            <input type="text" class="subscribe-text" placeholder="Enter Email">
+                            <button class="btn btn-go  font-bold">Go</button>
                         </div>
                     </div>
                 </div>
@@ -520,12 +519,6 @@
                 </div>
             </section>
         </footer>
-
-
-
-        <!--  -->
-
-
     </main>
 
     <!-- rellax 1.12.1 -->
