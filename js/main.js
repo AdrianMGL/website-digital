@@ -23,3 +23,20 @@ window.onload = function digital_fn() {
 let rellax = new Rellax('.rellax', {
     center: true
 });
+
+// 
+/**
+ *  sticky navigation
+ */
+
+let navbar = $(".navbar");
+
+$(window).scroll(function () {
+    // get the complete hight of window
+    let oTop = $(".agency-area").offset().top - window.innerHeight;
+    if ($(window).scrollTop() > oTop) {
+        navbar.addClass("sticky");
+    } else {
+        navbar.removeClass("sticky");
+    }
+});
